@@ -1,23 +1,28 @@
 import React from 'react';
+import Greeter from './Greeter';
 
+// function App(){
+// 	return (
+// 	<div>
+// 		<h1>Hello</h1>
+// 		<p>yo</p>
 
-function Greeter(){
-	return (
-		<section>
-			<h2>greetings. I am a person</h2>
-		</section>
-	);
-}
+// 		<Greeter />
+// 	</div>
+// 	)
+// }
 
-function App(){
-	return (
-	<div>
-		<h1>Hello</h1>
-		<p>yo</p>
-
-		<Greeter>hi</Greeter>
-	</div>
-	)
+class App extends React.Component {
+	render() {
+		return (
+			<div>
+				<h1>Hello</h1>
+				<p>yo</p>
+				{1 + 3}
+				<Greeter />
+			</div>
+		);
+	}
 }
 
 export default App;
