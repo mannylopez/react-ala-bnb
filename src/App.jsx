@@ -13,6 +13,10 @@ import Greeter from './Greeter';
 // }
 
 class App extends React.Component {
+	componentDidMount(){
+		console.log('this runs once')
+	}
+
 	render() {
 		return (
 			<div>
